@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  background-image: url('https://img.besthqwallpapers.com/Uploads/16-10-2018/68983/microchip-neon-lines-black-background-chips-technology-backgrounds.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+article {
+  background-image: linear-gradient(
+    92.88deg,
+    hsl(227, 45%, 50%) 9.16%,
+    hsl(248, 57%, 73%) 43.89%,
+    hsl(256, 66%, 61%) 64.72%
+  );
+  padding: 1em;
+  border-radius: 10px;
+  margin: 1em 0.5em;
+}
+@media screen and (min-width: 700px) {
+  article {
+    display: inline-block;
+    width: 43%;
+    padding: 1em;
+  }
+}
+@media screen and (min-width: 1000px) {
+  article {
+    width: 30%;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 2rem;
+  background-image: linear-gradient(
+    92.88deg,
+    #455eb5 9.16%,
+    #5643cc 43.89%,
+    #673fd7 64.72%
+  );
+  width: 50%;
+  margin: 0.2em auto;
+  padding: 0.1em 0.5em 0.2em 0.5em;
+  border-radius: 30px 0 30px 0;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    width: 99%;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  h1 {
+    width: 70%;
+    border-radius: 10px;
+  }
+}
+
+h2,
+h3 {
+  padding-bottom: 0.4em;
+}
+h2 {
+  color: #26144e;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+h3 {
+  color: #eff7ff;
+}
+p {
+  padding-top: 1em;
+}
+img {
+  display: block;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+a {
+  color: #0d0e3b;
+  padding-top: 1em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(245, 81%, 6%);
+}
+
+#container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 1%;
+}
+
+.author {
+  font-size: 0.8rem;
+  color: #c9c9c9;
+  padding-bottom: 1em;
+}
+
+.desc {
+  padding-bottom: 0;
+  line-height: 1.3em;
+  color: #f0f8ff;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.date {
+  padding: 0;
+  color: rgb(39, 38, 104);
+  font-weight: 600;
+  text-align: right;
+}
+
+#btn {
+  background-image: linear-gradient(
+    92.88deg,
+    #455eb5 9.16%,
+    #5643cc 43.89%,
+    #673fd7 64.72%
+  );
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 0.2em auto 1em auto;
+  display: block;
+  width: fit-content;
+}
+
+#btn:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 10px;
+  transition-duration: 0.1s;
+}
+
+@media (min-width: 768px) {
+  #btn {
+    padding: 0 2.6rem;
+  }
+}
+
+#searchContainer {
+  display: flex;
+  justify-content: center;
+  margin: 2.5em 3% 2em 3%;
+}
+#search {
+  width: 40%;
+  margin-right: 1.2em;
+  padding: 0.5em 1em;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 20px;
+  border: unset;
+  box-shadow: 0px 0px 10px 0px #d7953f;
+  transition: 0.4s;
+}
+#search:focus {
+  box-shadow: 0px 0px 10px 2px #673fd7;
+  transition: 0.4s;
+  outline: unset;
+}
+
+#searchBtn {
+  padding: 0em 2em 0.1em;
+  font-size: 1.2rem;
+  background: #673fd7;
+  border: unset;
+  color: white;
+  border-radius: 20px;
+}
+#searchBtn:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 10px;
+  transition-duration: 0.1s;
+}
+
+@media screen and (max-width: 700px) {
+  #searchContainer {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+  }
+  #search {
+    display: block;
+    margin: 0.5em auto;
+    width: 80%;
+  }
+  #searchBtn {
+    padding: 0.5em 1em;
+    width: 200px;
+  }
+}
